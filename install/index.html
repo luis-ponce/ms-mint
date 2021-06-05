@@ -121,13 +121,10 @@
 
 <h1 id="installation">Installation</h1>
 <h2 id="installation-with-pip-linux-macos-windows">Installation with PIP (Linux, MacOS, Windows)</h2>
-<p>The latest release of the program can easily be installed 
-in a standard Python 3 (&gt;= 3.7) environment using the widely used
-package manager <code>pip</code>:</p>
+<p>The latest release of the program can easily be installed in a standard Python 3 (&gt;= 3.7) environment using the widely used package manager  <code>pip</code>:</p>
 <pre><code>pip install ms-mint
 </code></pre>
-<p>Should download and install all necessary dependencies and Mint.
-Mint should then be available via <code>Mint.py</code></p>
+<p>The command above should download and install all necessary dependencies and Mint. Mint should then be available via <code>Mint.py</code></p>
 <h2 id="windows-installer">Windows Installer</h2>
 <p>For Windows 10 a build is provided <a href="https://github.com/soerendip/ms-mint/releases/latest">here</a>. 
 The installer generates an icon in the windows start menu. There will be a terminal be shown, 
@@ -150,9 +147,9 @@ optional arguments:
   --port                change the port
   --serve-path          serve app at a different path e.g. '/mint/' to serve the app at 'localhost:9999/mint/'
 </code></pre>
-<p>If the browser does not open automatically open it manually and navigate to <code>http://localhost:9999</code>. The app's frontend is build using <a href="https://plot.ly/dash/">Plotly-Dash</a> and runs locally in a browser. Thought, the Python functions provided can be imported and used in any Python project independently. The GUI is under active development and may be optimized in the future.</p>
+<p>If the browser does not open automatically open it manually and navigate to <code>http://localhost:9999</code>. The app's frontend is build using <a href="https://plot.ly/dash/">Plotly-Dash</a> and runs locally in a browser. The python functions provided can be imported and used in any Python project independently. The GUI is under active development and may be optimized in the future.</p>
 <h2 id="docker">Docker</h2>
-<p>MINT is now available on DockerHub in containerized format. A container is a standard unit of software that packages up code and all its dependencies, so the application runs quickly and reliably from one computing environment to another. In contrast to a virtual machine (VM), a Docker container image is a lightweight, standalone, executable package of software that includes everything needed to run an application: code, runtime, system tools, system libraries and settings. This allows to run MINT on any computer that can run Docker.</p>
+<p>MINT is now available on DockerHub in containerized format. A container is a standard unit of software that packages up code and all its dependencies, so the application runs quickly and reliably from one computing environment to another. In contrast to a virtual machine (VM), a Docker container image is a lightweight and standalone executable package of software that includes everything needed to run an application: code, runtime, system tools, system libraries, and settings. Therefore, MINT can run on any computer that can run Docker.</p>
 <p>The following command can be used to pull the latest image from docker hub.</p>
 <pre><code>docker pull msmint/msmint:latest
 </code></pre>

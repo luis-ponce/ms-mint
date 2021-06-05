@@ -100,10 +100,9 @@
                     <div class="col-md-9" role="main">
 
 <h1 id="peaklists">Peaklists</h1>
-<p>A peaklist contains the definitions of peaks to be extracted. It is the protocol that captures how data is going to be extracted from the MS-files. It is provided as <code>csv</code> (comma separated values) or <code>xlsx</code> (Microsoft Excel) file. Each row defines a peak-window. If a multi-sheet xlsx file can be used the peaklist should be the first sheet.</p>
-<p>A window is defined by five properties that need to be present as headers in the peaklist file:</p>
+<p>A peaklist contains the definitions of peaks to be extracted from the MS files. Peaklists are provided as <code>csv</code> (comma separated values) or <code>xlsx</code> (Microsoft Excel) file. Each row in a peaklist defines a peak-window. If a multi-sheet xlsx file is being used, the peaklist should be the first sheet. A window is defined by five properties that need to be present as headers in the peaklist file::</p>
 <ul>
-<li><strong>peak_label</strong> : A <strong>unique</strong> identifier such as the biomarker name or ID. Even if multiple peaklist files are used, the label have to be unique across all the files.</li>
+<li><strong>peak_label</strong> : A <strong>unique</strong> identifier such as the biomarker name or ID. Even if multiple peaklist files are used, the label has to be unique across all the files.</li>
 <li><strong>mz_mean</strong> : The target mass (m/z-value) in [Da].</li>
 <li><strong>mz_width</strong> : The width of the peak in the m/z-dimension in units of ppm. The window will be <em>mz_mean</em> +/- (mz_width * mz_mean * 1e-6). Usually, a values between 5 and 10 are used.</li>
 <li><strong>rt</strong> : Estimated retention time in [min].</li>

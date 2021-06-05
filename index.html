@@ -106,20 +106,14 @@
 <h1 id="mint-metabolomics-integrator">MINT - Metabolomics Integrator</h1>
 <p>MINT is a post-processing tool for <em>liquid chromatography-mass spectrometry</em> (LCMS) based <em>metabolomics</em>. 
 Metabolomics is the study of all metabolites (small chemical compounds) in a biological sample e.g. from bacteria or a human blood sample. 
-The metabolites can be used to define biomarkers used in medicine to find treatments for diseases or for the development of diagnostic tests 
-or for the identification of pathogens such as methicillin resistant <em>Staphylococcus aureus</em> (MRSA). </p>
+Metabolites can be used to define biomarkers used in medicine for both finding treatments for diseases, the development of diagnostic tests, as well as the identification of pathogens such as methicillin-resistant <em>Staphylococcus aureus</em> (MRSA). </p>
 <p><img alt="Flowchart of MINT workflow" src="image/flowchart.png" title="Flowchart of MINT workflow" /><br/>
 <em><strong>Figure 1:</strong></em> Flowchart of MINT processing workflow. </p>
 <h2 id="how-to-use-mint">How to use MINT?</h2>
-<p>The tool can be used for targeted analysis where the m/z-values (mass to charge ratios) and chromatographic retention times are known. 
-Alternatively, MINT can be used in an untargeted approach where new biomarkers can be explored without prior knowledge.</p>
-<p>MINT currently supports the open data formats mzML and mzXML. The main function is to extract and characterise measured 
-intensities in a given m/z and retention time (RT) window. These windows can be provided in form of a <a href="peaklists/">peaklist</a> 
-or created interactively in the <a href="gui/">GUI</a>. With this setup large numbers of LCMS-files can be processed automatically, 
-standardized and perfectly reproducible.</p>
-<p>The tool can be used with a browser based graphical user interface (GUI) implemented as interactive dashboard with 
-<a href="https://plot.ly/dash/">Plotly-Dash</a>. Alternatively, the <code>ms_mint</code> package can be imported as python library to be 
-integrated in any regular Python code as part of a larger processing pipeline or interacively in the <a href="jupyter/">Jupyter Notebook</a>.</p></div>
+<p>The tool can be used for targeted and untargeted analysis. In the first case, the m/z values (mass to charge ratios) and the chromatographic retention times are previously known. In the second approach, new biomarkers can be explored without prior knowledge.</p>
+<p>MINT currently supports the open data formats mzML and mzXML. The main function is to extract and characterize measured intensities in a given m/z and retention time (RT) window. RT windows can be provided in form of a <a href="peaklists/">peaklist</a> or created interactively in the graphical user interface <a href="gui/">GUI</a>. With this setup, large numbers of LCMS files can be processed automatically and standardized in a perfectly reproducible manner.</p>
+<p>The tool can be used with a browser-based GUI, implemented as an interactive dashboard with 
+<a href="https://plot.ly/dash/">Plotly-Dash</a>. Alternatively, the <code>ms_mint</code> package can be imported as a  python library to be integrated into any regular Python code as part of a larger processing pipeline or interactively in the <a href="jupyter/">Jupyter Notebook</a>.</p></div>
             </div>
         </div>
 
@@ -203,5 +197,5 @@ integrated in any regular Python code as part of a larger processing pipeline or
 
 <!--
 MkDocs version : 1.1.2
-Build Date UTC : 2021-04-22 13:22:49.888693+00:00
+Build Date UTC : 2021-06-05 22:21:25.520529+00:00
 -->
